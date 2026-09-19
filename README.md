@@ -32,5 +32,5 @@ That sentence is the product. The skill in `skills/amp-fit/` performs it. `LEDGE
 
 - [x] Smoke test passed for `iamdanielkitchen/food-bridge-app` (SETUP.md step 4); result recorded in the postmortem §16.
 - [x] Pass 1, decided 2026-09-19, launch line: `amp-fit pass. n=1 repo=iamdanielkitchen/food-bridge-app request=Do the surviving KEEPER first-audit items as one PR: remove yonder-app/_stage-harness.tmp.mjs if nothing references it, fix the stale detour-app paths in CLAUDE.md and README.md, banner superseded docs. Do not build KEEPER. Put the KEEPER-build and WP-9 spend decisions under What is unresolved.`
-- [ ] Pass 2, decided 2026-09-19, launch line: `amp-fit pass. n=2 repo=iamdanielkitchen/food-bridge-app` (no `request=`: the first pass that infers its job).
+- [x] Pass 2, decided 2026-09-19, launch line: `amp-fit pass. n=2 repo=iamdanielkitchen/food-bridge-app` (no `request=`: the first pass that infers its job).
 - [ ] Checkpoints: 2026-09-28 (at least one merged?) and 2026-10-03 (two merged on two repos means the next step is an outside owner, after five merges).
