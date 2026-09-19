@@ -8,5 +8,5 @@ Correction burden per pass is `fix` plus `daniel_min`. Value is the count of mer
 
 | # | date | repo | request | runtime | thread | output | grade | fix | daniel_min | saved_min | limitation |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 | 2026-09-14 | Pain-Point-Pipeline/amp-fit-v2 | Find and repair current failing checks; deliver PRs (pre-amp-fit launch, see postmortem §4.3) | orb-high | T-01a0a078-4920-7151-b73f-e7df654347fe | https://github.com/Pain-Point-Pipeline/amp-fit-v2/pull/27 |  |  |  |  |  |
-| 2 | 2026-09-14 | Pain-Point-Pipeline/amp-fit-v2 | same launch as row 1 | orb-high | T-01a0a078-4920-7151-b73f-e7df654347fe | https://github.com/Pain-Point-Pipeline/amp-fit-v2/pull/28 |  |  |  |  |  |
+| 1 | 2026-09-14 | Pain-Point-Pipeline/amp-fit-v2 | Find and repair current failing checks; deliver PRs (pre-amp-fit launch, see postmortem §4.3) | orb-high | T-01a0a078-4920-7151-b73f-e7df654347fe | https://github.com/Pain-Point-Pipeline/amp-fit-v2/pull/27 | merged | none | 8 | 10 | Failure existed only where accounts.json is absent; workbank area still non-hermetic |
+| 2 | 2026-09-14 | Pain-Point-Pipeline/amp-fit-v2 | same launch as row 1 | orb-high | T-01a0a078-4920-7151-b73f-e7df654347fe | https://github.com/Pain-Point-Pipeline/amp-fit-v2/pull/28 | merged | none | 12 | 30 | Fixture hygiene on apparatus retired 2026-09-16; product path untouched |
