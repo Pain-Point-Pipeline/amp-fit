@@ -10,3 +10,4 @@ Graded rows are rows with any grade except `void`; a `void` row counts as neithe
 
 | # | date | repo | request | runtime | thread | output | grade | fix | daniel_min | saved_min | limitation |
 |---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | 2026-09-19 | iamdanielkitchen/food-bridge-app | Do the surviving KEEPER first-audit items as one PR: remove yonder-app/_stage-harness.tmp.mjs if nothing references it, fix the stale detour-app paths in CLAUDE.md and README.md, banner superseded docs. Do not build KEEPER. Put the KEEPER-build and WP-9 spend decisions under What is unresolved. | orb-high | T-01a0b9c2-4129-765f-bd2d-7e95f5b7cf9f | https://github.com/iamdanielkitchen/food-bridge-app/pull/3 |  |  |  |  |  |
