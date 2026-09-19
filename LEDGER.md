@@ -1,0 +1,12 @@
+# Ledger
+
+One row per pass. Append only; never edit an earlier row. Agents fill the first seven cells; Daniel fills the last five. A blank Daniel cell older than 7 days reads as `ungraded`.
+
+Columns: `#` pass number · `date` · `repo` · `request` (Daniel's `request=` line, or `inferred: …`) · `runtime` (`orb-high`, `local-high`, other) · `thread` (`T-…`) · `output` (PR URL, `report`, `empty`, `needs-decision`, `blocked`) · `grade` (`merged`, `merged-after-fix`, `closed-not-useful`, `closed-wrong-job`, `empty-right`, `empty-missed`, `ungraded`) · `fix` (`none`, `wrong-scope`, `wrong-fix`, `missing-decision`, `wrong-job`) · `daniel_min` (minutes to read, decide and correct) · `saved_min` (Daniel's estimate of his own time the merged work replaced; merged rows only) · `limitation` (at most 12 words; identical text in two graded rows is the only software trigger).
+
+Correction burden per pass is `fix` plus `daniel_min`. Value is the count of merged rows and the sum of `saved_min` against the sum of `daniel_min`.
+
+| # | date | repo | request | runtime | thread | output | grade | fix | daniel_min | saved_min | limitation |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | 2026-09-14 | Pain-Point-Pipeline/amp-fit-v2 | Find and repair current failing checks; deliver PRs (pre-amp-fit launch, see postmortem §4.3) | orb-high | T-01a0a078-4920-7151-b73f-e7df654347fe | https://github.com/Pain-Point-Pipeline/amp-fit-v2/pull/27 |  |  |  |  |  |
+| 2 | 2026-09-14 | Pain-Point-Pipeline/amp-fit-v2 | same launch as row 1 | orb-high | T-01a0a078-4920-7151-b73f-e7df654347fe | https://github.com/Pain-Point-Pipeline/amp-fit-v2/pull/28 |  |  |  |  |  |
