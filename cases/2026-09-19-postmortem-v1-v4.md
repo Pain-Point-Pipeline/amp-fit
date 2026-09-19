@@ -137,7 +137,7 @@ The product is a work pass, not an apparatus. Three independent design passes (a
 
 ## 10. The loop and the tree
 
-`../README.md` is canonical and short. The tree holds seven files: `README.md`, `skills/amp-fit/SKILL.md`, `skills/amp-fit/ship.md`, `LEDGER.md`, this file, and two verbatim case records. Direct commits to main. The v4 repository is archived read-only with a pointer in its README; Amp_Fit_v3 is untouched.
+`../README.md` is canonical and short. The tree holds seven files: `../README.md`, `../SETUP.md`, `skills/amp-fit/SKILL.md`, `skills/amp-fit/ship.md`, `LEDGER.md`, this file, and `cases/README.md`, which links the two v4 case records at their archived paths. Direct commits to main. The v4 repository is archived read-only with a pointer in its README; Amp_Fit_v3 is untouched.
 
 ## 11. First cases
 
@@ -145,13 +145,13 @@ Only Daniel's own repositories have a real owner who can grade. The OSS reposito
 
 | Order | Repository | Evidence of a real, recurring responsibility | Risk |
 |---|---|---|---|
-| 1 | `iamdanielkitchen/food-bridge-app` | Daniel already wrote the job in `MAINTENANCE-AGENT-PROMPT.md` ("KEEPER"): an audit routine, then a cleanup routine about an hour later; ledger compaction, PORTFOLIO residuals, `STATE.md` growth, stale docs; tiered authority (Tier A auto-fix on registered non-code surfaces, Tier B draft-and-queue); a frozen-artifact never-touch list; "several watched runs before scheduling"; "you never create scheduled tasks/cron yourself." Already an Amp project through the ampfit2-lab mirror. | The prompt is dated 2026-06-11 and names paths that may have moved; the Amp project binds a mirror, so the PR target is a decision; the frozen list makes wrong scope expensive, which is a good test of `missing-decision`. |
+| 1 | `iamdanielkitchen/food-bridge-app` | Yonder, live at yonderrecipes.com; last push 2026-08-16. Daniel wrote `MAINTENANCE-AGENT-PROMPT.md` ("KEEPER") on 2026-06-11, but verified 2026-09-19: KEEPER was never built (`maintenance/` absent); its founding compaction file `AGENT-COMMS.md` is untracked by design, so no Orb can see it; `detour-app/` is now `yonder-app/`. What survives: `yonder-app/_stage-harness.tmp.mjs` still in the tree, the stale `detour-app/engine/prompt.js` path in `CLAUDE.md`, and the WP-9 corpus item in `components/PORTFOLIO.md` waiting on Daniel's spend decision. The frozen-artifact never-touch list still binds. | KEEPER demands design first, then audit-then-cleanup, which is apparatus-first and not one PR; the skill now treats such process rules as inapplicable unless `request=` invokes them. Expected pass-1 shape: a small hygiene PR with the KEEPER-build and WP-9 decisions under What is unresolved. Low `saved_min`; the case tests grading, not value. |
 | 2 | `iamdanielkitchen/portfolio-site` | A manual render-verify loop (fourteen `fix(smashed)` commits on one day); `CONTACT-HARDENING-PLAN.md` says Phases 6–8 remain; `AJO-DEMO-HANDOFF.md` lists open items; local clone present. | No CI; verification is visual; the Orb HEAD differs from the dirty local tree; the site is password-gated. |
 | 3 | `iamdanielkitchen/AJO` | CI `inquiry_engine` red on the latest runs; issue #10 "Factory Status" is a standing digest with no comments; draft PR #16. 5,403 files. | Idle since 2026-07-25, so an honest `empty-right` is possible; heavy context; better as a third case. |
 | 4 | `iamdanielkitchen/interface_v0.1` | CI `suite` failing on its last five runs; small tree. | Idle seven weeks; likely superseded. |
 | 5 | `iamdanielkitchen/ecomm-support-agent` (public) | The README claims an evaluation score; re-running the evaluation against current models is genuine recurring work. | Portfolio piece with no live demand. |
 
-Decided 2026-09-19: the first case is `food-bridge-app`. The expected honest shape of a first pass is a Tier-A-only PR (hygiene on registered non-code surfaces, originals archived, frozen list untouched) with Tier B items queued under "What is unresolved," each naming Daniel as the decider. Case zero, before any new pass, is grading PRs #27 and #28; rows 1 and 2 of the ledger are pre-filled.
+Decided 2026-09-19: the first case is `food-bridge-app`, launched with the `request=` line in `../README.md` (the surviving hygiene items as one PR; no KEEPER build; the two decisions queued). Case zero, before any new pass, is grading PRs #27 and #28; rows 1 and 2 of the ledger are pre-filled. Before pass 1, the smoke test in `../SETUP.md` must pass.
 
 ## 12. What would show the product exists
 
@@ -176,11 +176,12 @@ The standing stop rules, with their numbers, live in `../README.md` so that chan
 
 ## 14. Open decisions for Daniel
 
-- Give a `request=` line for pass 1 on food-bridge-app, or leave the job to inference (the KEEPER prompt is in the trail; inference is the real test).
-- Create a personal Amp project for `iamdanielkitchen/food-bridge-app` so PRs land where he merges, or run the local interactive fallback.
+- Resolved 2026-09-19: pass 1 gets a `request=` line (in `../README.md`); the KEEPER prompt turned out to describe an unbuilt system, so inference would have tested staleness, not discovery.
+- Resolved 2026-09-19: a personal Amp project `food-bridge` bound to `iamdanielkitchen/food-bridge-app`, with `ampfit2-lab` added as a collaborator so the Orb can reach it; local fallback only if the smoke test fails.
+- Resolved 2026-09-19: audience is Daniel first; the tree stays publishable as-is and the exhibit decision is taken after the first two merges.
 - Grade PRs #27 and #28 today (case zero).
 - After a first merge, whether to wire an Automation on that thread.
-- Whether Amp's makers are an audience for the ledger (a fit or lead tool), a decision never recorded in any tree and not needed before the first outside owner.
+- Whether Amp's makers or an outside owner are the next audience, decided after two merges.
 
 ## 15. Sources
 
@@ -190,3 +191,17 @@ The standing stop rules, with their numbers, live in `../README.md` so that chan
 - v4: `Amp_Fit_v4/METHOD.md`, `docs/workflow-selection-error.md`, `docs/cases/*.md`, `docs/history/initial_checkpoint.md`, `docs/plans/2026-09-18-0936-feat-production-work-foundation-plan.md`, `docs/later/`; runs `~/amp-fit-v4-work/automation-feasibility/cal-20260917T184938014818Z` (thread `T-01a0b0b3-fc4c-74aa-94f1-99e6d5e3655b`) and `rpath-20260917T190057220195Z` (thread `T-01a0b0be-5a62-73fd-8b5d-6512b0c13f7b`); review `~/amp-fit-v4-work/review-latest-20260917/review.md`; `amp threads usage` for the CAL thread ($0.08).
 - Amp: installed CLI `0.0.1788279758-ge2ac2e` (`amp --help`, `amp skill list`, `amp plugins show-docs`); ampcode.com/docs/customize/skills, /docs/customize/plugins, /docs/cli/execute-mode, /docs/cli/spawning-orbs, /docs/cli/streaming-json, /docs/orbs/automations.
 - First cases: `gh api` on `iamdanielkitchen/food-bridge-app` (`MAINTENANCE-AGENT-PROMPT.md`), `portfolio-site` (`CONTACT-HARDENING-PLAN.md`, `AJO-DEMO-HANDOFF.md`), `AJO`, `interface_v0.1`, `ecomm-support-agent`, all read on 2026-09-19.
+
+## 16. Stress test, 2026-09-19
+
+A stress test of the plan (Claude Fable 5.1, same day) checked the launch commands against the installed CLI, the Amp docs, GitHub and the Amp account. What held: every flag exists; Automations exist as described; the Custom Ship route is genuinely proven (PR #28 records retrieving the saved ship prompt through the native ship tool); the numbers and cited files in this record check out. What did not, and what changed:
+
+- Orb GitHub identity. Orb `git` and `gh` run as the Amp account's linked GitHub user, which is `ampfit2-lab` (author of PRs #27/#28); no Orb secrets exist. Daniel's private repos list only him as collaborator, so an Orb could not clone them. Fix: `ampfit2-lab` is added as a collaborator per repo (`../SETUP.md` step 2), which also separates author from grader.
+- Skill transport. The skill was installed only at `~/.config/agents/skills/`, which the docs do not describe as reaching Orbs; personal skills "are available everywhere you use Amp." Fix: the skill is published to the personal skills repository from the canonical copy here, and the local install is removed because a local copy masks a same-named repository skill.
+- First case. `MAINTENANCE-AGENT-PROMPT.md` describes a system never built on paths that moved (§11). Fix: pass 1 carries a `request=` line; the skill now says owner-written process rules do not bind a pass unless `request=` invokes them, while frozen lists always do.
+- Grading. Every one of Daniel's GitHub events from 2026-09-09 to 09-19 was on the Amp Fit trees. PRs in the repo he was in were dispositioned within a day (v4 #3–#8); PRs elsewhere sat (v2 #27/#28 five days, five older v2 PRs ten days or more, food-bridge-app #1 since July). Fix: the loop says launch at the start of a working session in that repo and grade before it ends; the row is appended with one command and the launch line carries the row number. No rule can enforce this; the stop rule on 2026-10-10 records it if it fails.
+- Software trigger. "Identical limitation text" typed on different days never matches. Fix: `same as #N` in the limitation cell.
+- Tree weight. 575 of 680 lines were history. Fix: the two v4 records are links to the archived repository.
+- Smoke test. A two-minute Orb run per new repo (`../SETUP.md` step 4) now verifies clone access and skill visibility before any pass. Result for food-bridge-app: not yet run on 2026-09-19; blocked on ampfit2-lab accepting the collaborator invitation (id 333763376), which the fine-grained token on this machine cannot do, so it is a one-click browser step for Daniel.
+
+Audience decision, 2026-09-19: Daniel first; the tree carries no secrets or private paths so it can be made public later without editing.

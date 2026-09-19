@@ -1,5 +1,6 @@
 # cases
 
-Records of how agents substituted easier work for the owner's across Amp Fit v1–v4, and the postmortem that decided the shape of this tree. These are for humans; the skill does not require reading them before a pass.
+What this folder is: the reasoning record behind `../README.md`. New observations go in `../LEDGER.md`, not here; no per-pass files.
 
-Do not add per-pass files here. A pass is recorded as a pull request and one row in `../LEDGER.md`. A new file appears here only when a stop rule in `../README.md` fires, and it is at most 40 lines: the rule, the rows, and the one thing changed.
+- [2026-09-19-postmortem-v1-v4.md](2026-09-19-postmortem-v1-v4.md): why the tree has this shape, and the stress test that reshaped it (§16).
+- Two rails kept as links into the archived, read-only v4 repository: the [selection error](https://github.com/Pain-Point-Pipeline/amp-fit-v4/blob/main/docs/workflow-selection-error.md) and the [method drift record](https://github.com/Pain-Point-Pipeline/amp-fit-v4/blob/main/docs/cases/amp-fit-method-drift.md).
