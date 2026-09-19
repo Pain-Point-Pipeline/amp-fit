@@ -151,7 +151,7 @@ Only Daniel's own repositories have a real owner who can grade. The OSS reposito
 | 4 | `iamdanielkitchen/interface_v0.1` | CI `suite` failing on its last five runs; small tree. | Idle seven weeks; likely superseded. |
 | 5 | `iamdanielkitchen/ecomm-support-agent` (public) | The README claims an evaluation score; re-running the evaluation against current models is genuine recurring work. | Portfolio piece with no live demand. |
 
-Decided 2026-09-19: the first case is `food-bridge-app`, launched with the `request=` line in `../README.md` (the surviving hygiene items as one PR; no KEEPER build; the two decisions queued). Case zero, before any new pass, is grading PRs #27 and #28; rows 1 and 2 of the ledger are pre-filled. Before pass 1, the smoke test in `../SETUP.md` must pass.
+Decided 2026-09-19: the first case is `food-bridge-app`, launched with the `request=` line in `../README.md` (the surviving hygiene items as one PR; no KEEPER build; the two decisions queued). Case zero, grading PRs #27 and #28, was done on 2026-09-19: both were merged, and their rows were then removed from the ledger as pre-skill data (§16). The smoke test in `../SETUP.md` passed before pass 1.
 
 ## 12. What would show the product exists
 
@@ -179,7 +179,7 @@ The standing stop rules, with their numbers, live in `../README.md` so that chan
 - Resolved 2026-09-19: pass 1 gets a `request=` line (in `../README.md`); the KEEPER prompt turned out to describe an unbuilt system, so inference would have tested staleness, not discovery.
 - Resolved 2026-09-19: a personal Amp project `food-bridge` bound to `iamdanielkitchen/food-bridge-app`, with `ampfit2-lab` added as a collaborator so the Orb can reach it; local fallback only if the smoke test fails.
 - Resolved 2026-09-19: audience is Daniel first; the tree stays publishable as-is and the exhibit decision is taken after the first two merges.
-- Grade PRs #27 and #28 today (case zero).
+- Resolved 2026-09-19: PRs #27 and #28 were graded and merged; their ledger rows were removed as pre-skill data (§16).
 - After a first merge, whether to wire an Automation on that thread.
 - Whether Amp's makers or an outside owner are the next audience, decided after two merges.
 
@@ -204,5 +204,7 @@ A stress test of the plan (Claude Fable 5.1, same day) checked the launch comman
 - Tree weight. 575 of 680 lines were history. Fix: the two v4 records are links to the archived repository.
 - Smoke test. A two-minute Orb run per new repo (`../SETUP.md` step 4) now verifies clone access and skill visibility before any pass. Result for food-bridge-app, 2026-09-19: passed. Thread `T-01a0b970-ffd5-7450-82ed-d9f76c5fc374` on the Amp project `food-bridge` listed the repository's files and named `amp-fit` among its skills, so an Orb reaches the real repository and loads the published skill. ampfit2-lab holds admin there at Daniel's request; `push` is the minimum a pass needs.
 - Launch syntax. The message must come directly after `-ox`, as in the launch that produced PRs #27/#28; a trailing message is rejected with "User message must be provided through stdin or as argument". The first smoke launch failed this way, and the commands in `../README.md` and `../SETUP.md` were corrected.
+- Grades for every outcome. The first grade list covered only PRs and empty passes, so a question for Daniel, a report, or a dead thread had no valid grade and would have read as not useful after 7 days. The ship prompt no longer produces a report; `needs-decision` is graded `asked-right` or `asked-wrong`; a dead thread is `blocked`, graded `void`, excluded from every rate, and two in a row move that repo to the local fallback. The enum changed before any skill pass was graded, so no data was invalidated; the §13 freeze until row 10 counts from the first skill pass.
+- Pre-skill rows removed. Rows 1 and 2, amp-fit-v2 PRs #27 and #28 from the 2026-09-14 launch, were graded `merged` and then removed at Daniel's direction: they graded a prompt that predates the skill and would have satisfied the 2026-09-28 checkpoint on their own. The grades remain in commit `9cf2742`. Only skill passes get rows now, and numbering starts at 1.
 
 Audience decision, 2026-09-19: Daniel first; the tree carries no secrets or private paths so it can be made public later without editing.

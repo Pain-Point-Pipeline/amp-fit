@@ -3,4 +3,4 @@ Inspect the diff, run the relevant verification, commit and push only the work b
 If required verification fails or remains incomplete, create a draft PR titled VERIFICATION FAILED and state the actual checks and limitations.
 Use the PR body headings from the amp-fit skill and end the body with its ledger line.
 Verify the resulting PR repository, head and base and report its URL. Do not publish unrelated files or credentials.
-If no substantive change was made, return a report and do not open an empty PR.
+If no substantive change was made, open no PR and end as the amp-fit skill says: `empty` with one sentence, or `needs-decision` with the question and who decides.
