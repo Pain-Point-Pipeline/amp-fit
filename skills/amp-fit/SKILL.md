@@ -40,7 +40,7 @@ Use exactly these headings, in this order, and keep the whole body under 400 wor
 - **What is unresolved**: only decisions a human must make, each naming who decides.
 - **What merging authorizes**: exactly one thing. Merge this PR, a next pass on X, or nothing.
 
-Then one line beginning `Noticed:` with anything else you saw that is not this job, including problems in frozen or never-touch files, which only the owner can act on, or `Noticed: nothing`. Last line of the body, filled from your pass: `ledger: | <n> | <date> | <owner/repo> | <request, or "inferred: ..."> | <orb-high or local-high> | <thread id> | <PR URL> |  |  |  |  |  |`
+Then one line, filled from your pass: `Noticed: <anything else you saw that is not this job, or nothing>; frozen: <each problem the owner's own audits, plans or notes name that sits under a freeze or never-touch mark, so no pass can fix it, with the file that marks it, or none>`. The owner wrote both the problem and the mark; only the owner can lift it, so it is said every pass. Last line of the body, filled from your pass: `ledger: | <n> | <date> | <owner/repo> | <request, or "inferred: ..."> | <orb-high or local-high> | <thread id> | <PR URL> |  |  |  |  |  |`
 
 ## End of pass
 
