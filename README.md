@@ -35,5 +35,5 @@ That sentence is the product. The skill in `skills/amp-fit/` performs it. `LEDGE
 - [x] Pass 2, decided 2026-09-19, launch line: `amp-fit pass. n=2 repo=iamdanielkitchen/food-bridge-app` (no `request=`: the first pass that infers its job).
 - [x] Pass 3, decided 2026-09-19, launch line: `amp-fit pass. n=3 repo=iamdanielkitchen/food-bridge-app`, sent as a continuation of the pass-2 thread `T-01a0b9fc-76e6-7386-9c5d-a709f99a98e5` (no `request=`: the first continuation pass).
 - [x] Pass 4, decided 2026-09-19, launch line: `amp-fit pass. n=4 repo=iamdanielkitchen/food-bridge-app`, on a fresh thread (no `request=`: the first pass to load the `Noticed:` template).
-- [ ] Pass 5, decided 2026-09-19, launch line: `amp-fit pass. n=5 repo=iamdanielkitchen/food-bridge-app`, on a fresh thread (no `request=`: the first pass to load the frozen-file clause in the `Noticed:` line).
+- [x] Pass 5, decided 2026-09-19, launch line: `amp-fit pass. n=5 repo=iamdanielkitchen/food-bridge-app`, on a fresh thread (no `request=`: the first pass to load the frozen-file clause in the `Noticed:` line).
 - [ ] Checkpoints: 2026-09-28 (at least one merged?) and 2026-10-03 (two merged on two repos means the next step is an outside owner, after five merges).
