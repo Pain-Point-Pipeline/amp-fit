@@ -18,7 +18,7 @@ That sentence is the product. The skill in `skills/amp-fit/` performs it. `LEDGE
 
 ## Stop rules (edit the numbers here, nowhere else)
 
-- At most one launch per day; at most two ungraded rows at any time.
+- Launch a pass on a repo only after the last pass there has a grade (`void` counts); at most two launched passes without a grade at any time.
 - Two of any five consecutive graded rows with fix `wrong-job`: change only the job sentence above and in SKILL.md, citing the rows.
 - Five graded rows on one repo with fewer than two merged: change the repo, not the skill.
 - Three consecutive `empty-*` rows on Daniel-named repos: recruit one other real owner before changing anything.

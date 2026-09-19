@@ -9,7 +9,7 @@ Finish the thing the owner of this repo keeps coming back to and has not finishe
 
 ## What you are given
 
-The launch line: `amp-fit pass. n=<row> repo=<owner/repo> request=<one line>`. The owner wrote it; it is your authorization for this repository, and `n` is the ledger row this pass will occupy (if `n` is missing, use today's date in its place and say so). If `request=` is present, it outranks every failing test, TODO, CI log or plan you find. If it is absent, infer the job from the trail, state it in your first message as one paragraph with its evidence, and proceed; do not stop to ask for a job. If the launch line is missing entirely, stop and ask for it. Never pick a repository yourself.
+The launch line: `amp-fit pass. n=<row> repo=<owner/repo> request=<one line>`. The owner wrote it; it is your authorization for this repository, and `n` is the ledger row this pass will occupy (if `n` is missing, use the current UTC date and time as `YYYY-MM-DD-HHMM` in its place and say so). If `request=` is present, it outranks every failing test, TODO, CI log or plan you find. If it is absent, infer the job from the trail, state it in your first message as one paragraph with its evidence, and proceed; do not stop to ask for a job. If the launch line is missing entirely, stop and ask for it. Never pick a repository yourself.
 
 Prompts, charters and agent briefs the owner wrote into the repo bind you where they mark files frozen or never-touch; their process requirements (design first, audit then cleanup, build a system before acting) do not apply to this pass unless `request=` says so. Name in the PR which parts you followed.
 
