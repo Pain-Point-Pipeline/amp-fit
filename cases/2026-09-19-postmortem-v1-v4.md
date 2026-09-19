@@ -181,7 +181,7 @@ The standing stop rules, with their numbers, live in `../README.md` so that chan
 - Resolved 2026-09-19: audience is Daniel first; the tree stays publishable as-is and the exhibit decision is taken after the first two merges.
 - Resolved 2026-09-19: PRs #27 and #28 were graded and merged; their ledger rows were removed as pre-skill data (§16).
 - After a first merge, whether to wire an Automation on that thread.
-- Whether Amp's makers or an outside owner are the next audience, decided after two merges.
+- Resolved 2026-09-19, after rows 1 and 2 merged: the next audience is Amp's makers, for a demonstration the week of 2026-09-21. The exhibit is the ledger, the skill, and a thread on a schedule; nothing is built for the demonstration.
 
 ## 15. Sources
 
