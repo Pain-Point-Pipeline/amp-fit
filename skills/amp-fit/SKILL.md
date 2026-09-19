@@ -40,7 +40,7 @@ Use exactly these headings, in this order, and keep the whole body under 400 wor
 - **What is unresolved**: only decisions a human must make, each naming who decides.
 - **What merging authorizes**: exactly one thing. Merge this PR, a next pass on X, or nothing.
 
-Last line of the body, filled from your pass: `ledger: | <n> | <date> | <owner/repo> | <request, or "inferred: ..."> | <orb-high or local-high> | <thread id> | <PR URL> |  |  |  |  |  |`
+Then one line beginning `Noticed:` with anything else you saw that is not this job, or `Noticed: nothing`. Last line of the body, filled from your pass: `ledger: | <n> | <date> | <owner/repo> | <request, or "inferred: ..."> | <orb-high or local-high> | <thread id> | <PR URL> |  |  |  |  |  |`
 
 ## End of pass
 
