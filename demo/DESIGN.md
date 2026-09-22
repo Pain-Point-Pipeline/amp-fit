@@ -152,7 +152,7 @@ Verified: live activity, display pause with 21 updates retained and caught up, s
 
 From 2026-09-21, major updates to this demo page are maintained from the amp-fit checkout. That covers the page layout, the recorded run, the evidence snapshot, and publishing those files to the portfolio's Cloudflare Pages project.
 
-The public page is the recorded demonstration at https://painpointpipeline.com/amp-fit. Visitors start the 20 September portfolio recording. That click does not launch an Orb. Live launches stay on the local runner, `npm run demo:live` in the portfolio checkout. No hosted runner, `AMP_FIT_RUNS` namespace, or GitHub token is part of this publication.
+The public page is https://painpointpipeline.com/amp-fit. When the runner on this machine is up, Start Demo launches one real high-mode Orb on `Pain-Point-Pipeline/amp-fit-v2` with no work directive. The 20 September recording stays available in the mode selector and is what visitors get if the runner is down. There is no `AMP_FIT_RUNS` namespace and no GitHub token in Cloudflare. The runner keeps using the Amp and GitHub CLIs already signed in on this machine. Public launches stop after eight new Orbs in a UTC day. An Orb that is already running can still be watched.
 
 Portfolio passes leave these files alone unless Daniel asks otherwise:
 
